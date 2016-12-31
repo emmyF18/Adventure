@@ -55,6 +55,7 @@ public class Adventure
 	static void person()
 	{
 		//exp and heath and level
+		
 	}
 	static void foundMonster()
 	{
