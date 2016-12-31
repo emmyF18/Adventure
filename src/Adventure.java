@@ -16,15 +16,8 @@ public class Adventure
 	 
 	public static void main(String[] args)
 	{
-		//showMain();
+		showMain();
 		//Adventure();
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
-		System.out.println(rollnum5());
 
 	}
 	public Adventure()
@@ -34,8 +27,10 @@ public class Adventure
 	}
 	static void  showMain()
 	{
+		int choice;
 		System.out.println("1: Explore the Field \n 2: Items \n 3: Player Info \n 4: Quit \n Enter the Number of what you want to do");
-		System.out.print(in.next());
+		
+		choice = Integer.parseInt(in.next());
 	}
 	static void explore()
 	{
