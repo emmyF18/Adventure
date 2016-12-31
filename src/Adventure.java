@@ -86,7 +86,7 @@ public class Adventure
 	}
 	static void quit()
 	{
-		
+		System.exit(0);
 	}
 
 }
