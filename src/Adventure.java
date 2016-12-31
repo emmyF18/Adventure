@@ -63,7 +63,6 @@ public class Adventure
 	static int rollnum10()
 	{
 		 return (int) (Math.random() * ((10-1 + 1)) + 1);
-		
 	}
 	static int rollnum5()
 	{
